@@ -2,7 +2,7 @@
 
 ## Introduction
 
-It's a sample project used by studies propuorses.
+It's a sample project used for study.
 
 ## Getting start
 

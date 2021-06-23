@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/size_4"
+    android:background="@color/lightGray"
+    android:paddingTop="@dimen/size_4"
+    android:paddingBottom="@dimen/size_4">
+
+    <TextView
+        android:id="@+id/textview_product_id"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="@dimen/match_constraint"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/size_24"
+        android:paddingEnd="@dimen/size_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Product ID" />
+
+    <TextView
+        android:id="@+id/textview_product_description"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="@dimen/match_constraint"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_2"
+        android:paddingStart="@dimen/size_24"
+        android:paddingEnd="@dimen/size_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textview_product_id"
+        app:layout_constraintTop_toBottomOf="@+id/textview_product_id"
+        tools:text="Product Description" />
+
+    <TextView
+        android:id="@+id/textview_product_customer_id"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="@dimen/match_constraint"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_2"
+        android:paddingStart="@dimen/size_24"
+        android:paddingEnd="@dimen/size_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textview_product_description"
+        app:layout_constraintTop_toBottomOf="@+id/textview_product_description"
+        tools:text="Product Description" />
+</androidx.constraintlayout.widget.ConstraintLayout>

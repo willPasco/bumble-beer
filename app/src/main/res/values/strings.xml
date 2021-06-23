@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Bumble Beer</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">Home</string>
+    <string name="customer">Customer</string>
+    <string name="product">Product</string>
+
+    <!-- Customers Screen -->
+    <string name="customer_title">Customers</string>
+    <string name="customer_id_label">ID: %d</string>
+    <string name="customer_name_label">Name: %s</string>
+    <string name="customer_description">Customer Description</string>
+    <string name="customer_delete_not_implemented_yet">Customer Delete function not implemented yet</string>
+    <string name="customer_save_not_implemented_yet">Customer Save function not implemented yet</string>
+    <string name="customer_cancel_not_implemented_yet">Customer Cancel function not implemented yet</string>
+
+    <!-- General messages -->
+    <string name="not_implemented_yet">Not implemented yet</string>
+    <string name="error">Error</string>
+    <string name="ok">OK</string>
+    <string name="save">Save</string>
+    <string name="cancel">cancel</string>
+    <string name="delete">Delete</string>
+    <string name="loading_content">Loading Content</string>
+    <string name="product_description">Product Description</string>
+    <string name="closing_app">App will be closed now</string>
+
+    <!-- Products Screen -->
+    <string name="product_title">Products</string>
+    <string name="product_id_label">ID: %d</string>
+    <string name="product_description_label">Description: %s</string>
+    <string name="product_customer_id_label">Customer ID: %d</string>
+
+
+</resources>
